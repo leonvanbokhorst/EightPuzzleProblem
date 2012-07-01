@@ -31,7 +31,7 @@ namespace EightPuzzleConsole
 
                         if (!int.TryParse(s.ToString(), out tile)) continue;
 
-                        start.Tiles[i++] = tile;
+                        start.Tiles[i++] = tile; 
                     }
 
                     var pathFinder = new PathFinder(
