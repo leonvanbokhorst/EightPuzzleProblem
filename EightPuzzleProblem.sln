@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A2548BF-BA7B-4EB3-8B0B-5ED4D9915B97}"
+	ProjectSection(SolutionItems) = preProject
+		EightPuzzleBot.vsmdi = EightPuzzleBot.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightPuzzleGame", "EightPuzzleSolver\EightPuzzleGame.csproj", "{CEE48804-E87A-4B2C-B766-03D1DF9C1752}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D9C2F8C8-6F3F-4894-BFBC-ABEA94A54E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightPuzzleSolverTests", "EightPuzzleSolverTests\EightPuzzleSolverTests.csproj", "{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightPuzzleConsole", "EightPuzzleConsole\EightPuzzleConsole.csproj", "{7FCC20C0-5610-447C-82C8-8658E4B43902}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EightPuzzleBot.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CEE48804-E87A-4B2C-B766-03D1DF9C1752}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813}.Release|x86.ActiveCfg = Release|Any CPU
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Debug|x86.ActiveCfg = Debug|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Debug|x86.Build.0 = Debug|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Release|Any CPU.ActiveCfg = Release|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Release|x86.ActiveCfg = Release|x86
+		{7FCC20C0-5610-447C-82C8-8658E4B43902}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3C8AD5A-B725-464C-AF87-DC70CC9B4813} = {D9C2F8C8-6F3F-4894-BFBC-ABEA94A54E42}
+	EndGlobalSection
+EndGlobal
