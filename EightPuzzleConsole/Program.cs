@@ -17,6 +17,7 @@ namespace EightPuzzleConsole
                 var goal = new EightPuzzleNode { Tiles = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 0 } };
                 var start = new EightPuzzleNode { Tiles = new int[9] };
 
+                Console.WriteLine("Enter a valid start state (e.g. 867254301");
                 string userinput = Console.ReadLine();
 
 
